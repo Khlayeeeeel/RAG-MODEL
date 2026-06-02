@@ -1,0 +1,20 @@
+# Antigravity AI - Company Overview
+
+Antigravity AI is a leading artificial intelligence research and development company founded in 2024. Our mission is to build advanced, agentic AI coding assistants that empower developers worldwide.
+
+## Key Products
+1. **Nova Assistant**: A powerful, cross-platform IDE extension that provides real-time pair programming support.
+2. **Quark Engine**: A specialized inference engine optimized for large-scale code analysis and transformation tasks.
+3. **Orbit Cloud**: A managed platform for deploying and scaling AI-driven development workflows.
+
+## Technical Stack
+We primarily use Python for our research pipelines, while our product surfaces are built with TypeScript and React. Our vector store of choice is ChromaDB, which we use for efficient retrieval-augmented generation (RAG).
+
+## Founder and Vision
+The company was co-founded by Dr. Elena Vance and Marcus Chen. Their vision is a world where every developer has a personal AI collaborator that understands their codebase as well as they do.
+
+## Office Locations
+Our headquarters is located in San Francisco, with satellite offices in London, Tokyo, and Berlin.
+
+## Support Contact
+For technical support, please contact us at support@antigravity.ai or visit our documentation portal at docs.antigravity.ai.
