@@ -1,9 +1,3 @@
-"""
-COMPREHENSIVE MEDICAL RAG - VITALS.CSV EDITION
-==============================================
-Handles all 11 columns: Date, ID, Nom, Etape, SpO2, Note SpO2, 
-Temperature, Note Temp, Tension, Note TA, Flags
-"""
 
 import pandas as pd
 import chromadb
@@ -14,7 +8,6 @@ from dotenv import load_dotenv
 import warnings
 warnings.filterwarnings('ignore')
 
-# ============ SETUP ============
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("API_KEY")
 
@@ -30,7 +23,7 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 collection = chroma_client.get_or_create_collection(name="patient_vitals")
 
-# ============ ENHANCED DATA LOADING ============
+# ENHANCED DATA LOADING 
 def load_data():
     """Load vitals.csv with ALL 11 columns properly parsed."""
     print("📊 Loading vitals.csv with full analysis...")
